@@ -1,0 +1,47 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header img.profile-picture {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 90%; /* Makes the image circular */
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header .tags {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #bbb;
+}
+
+
+
+/* .header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .header .tags {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #bbb;
+  }
+   */

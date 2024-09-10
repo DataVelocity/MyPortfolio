@@ -1,0 +1,118 @@
+/* Apply a global font for a modern look */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0; /* Light background for overall page */
+}
+
+.about {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #e0f7fa, #b2ebf2); /* Soft gradient background */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  min-height: 145vh; /* Full viewport height */
+}
+
+.about-heading {
+  color: #be1640; /* Accent color for heading */
+  font-size: 2.6rem; /* Larger font size for the heading */
+  margin-bottom: 40px; /* Space between heading and content */
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase; /* Uppercase for a strong impact */
+  letter-spacing: 1.5px; /* Slightly increased letter spacing */
+}
+
+.about-content {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; /* Align text to the left for better readability */
+  border: 1px solid #ddd; /* Subtle border around content */
+}
+
+.about-content p {
+  margin: 20px 0;
+  color: #333;
+  line-height: 1.7;
+  font-size: 1.2rem; /* Slightly larger font size */
+  font-weight: 400;
+}
+
+.about-content strong {
+  color: #00796b; /* Accent color for strong text */
+  font-weight: 600; /* Slightly bolder for emphasis */
+}
+
+.about-content .highlight {
+  background-color: #e8f5e9; /* Light green background for key skills */
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.about-content a {
+  color: #00796b; /* Link color */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-content a:hover {
+  text-decoration: underline; /* Underline on hover for links */
+}
+
+.profile-img {
+  border-radius: 50%; /* Circular profile picture */
+  width: 150px; /* Set size for profile picture */
+  height: 150px;
+  margin-bottom: 20px; /* Space below the profile picture */
+  border: 3px solid #00796b; /* Border around profile picture */
+}
+
+.call-to-action {
+  display: block;
+  width: 200px;
+  margin: 30px auto;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #bd3131;
+  background-color: #484d4a; /* Button color */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.call-to-action:hover {
+  background-color: #c6c6d3; /* Darker button color on hover */
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 40px 10px;
+  }
+
+  .about-heading {
+    font-size: 2.5rem;
+  }
+
+  .about-content {
+    padding: 20px;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}

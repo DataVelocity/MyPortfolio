@@ -1,0 +1,97 @@
+/* Navbar container */
+.navbar {
+  background-color: #181874; /* Darker background color */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Adjusted height */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Navbar list */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar items */
+.navbar li {
+  position: relative; /* For positioning pseudo-elements */
+}
+
+/* Navbar links */
+.navbar .nav-link {
+  display: block;
+  color: #ecf0f1; /* Light text color */
+  text-align: center;
+  padding: 14px 20px; /* Added padding for better spacing */
+  text-decoration: none;
+  font-weight: 500; /* Slightly bolder font */
+  transition: color 0.3s, background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Navbar link hover effect */
+.navbar .nav-link:hover {
+  background-color: #34495e; /* Slightly lighter background on hover */
+  color: #fff;
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Active link */
+.navbar .nav-link.active {
+  color: #1abc9c; /* Accent color for active link */
+  font-weight: 700; /* Bolder font for active state */
+  border-bottom: 2px solid #1abc9c; /* Underline effect */
+}
+
+/* Responsive design for tablets and below */
+@media (max-width: 1024px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+  }
+  
+  .navbar li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .navbar .nav-link {
+    padding: 12px;
+    font-size: 16px; /* Adjust font size for tablets */
+  }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+  }
+
+  .navbar li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .navbar .nav-link {
+    padding: 12px;
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+}

@@ -1,0 +1,74 @@
+.contact {
+
+  background-color: #181874; /* Deep background color for contrast */
+  background-color: rgba(0, 0, 0, 0.877);
+  background-color: rgba(69, 60, 60, 0.877);
+  color: #fff; /* White text for visibility */
+  padding: 40px 20px; /* Ample padding for spacing */
+  text-align: center; /* Center align text */
+  border-radius: 8px; /* Smooth corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #1abc9c; /* Accent color for the heading */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.contact-info strong {
+  font-weight: 600;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.social-media a {
+  margin: 0 15px;
+  font-size: 1.8em;
+  color: #fff; /* Ensure icons are visible */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #1abc9c; /* Hover color for social icons */
+  transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+.back-to-top {
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #16a085; /* Darker shade on hover */
+  transform: translateY(-3px); /* Slight upward movement */
+}
+
+.back-to-top svg {
+  font-size: 1.5em;
+}
+
