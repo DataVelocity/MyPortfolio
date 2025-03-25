@@ -25,7 +25,7 @@ function Home() {
           </a>
         </div>
         <div className="buttons">
-        <a href="/Deepak Raj ResumeV4.0.pdf" className="btn btn-primary" download>
+        <a href="/Resume_Developer" className="btn btn-primary" download>
           {/* <a href="/resume.pdf" className="btn btn-primary" download> */}
             <i className="fas fa-download"></i> Resume
           </a>
